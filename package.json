@@ -1,0 +1,36 @@
+{
+    "author": "deadolus@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "simle-hr-test",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "simple hr test, no real usage",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/heart.png",
+                    "menuIcon": true,
+                    "name": "heart_rate",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite",
+            "emery"
+        ],
+        "uuid": "7b614cb6-9052-4a7e-baff-d869e04bb2d0",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
